@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "foodstuffs",
+  "group": "sliced_bread",
+  "ingredients": [
+    "minecraft:bread"
+  ],
+  "result": {
+    "count": 10,
+    "id": "grilledcheese:sliced_bread"
+  }
+}
+
