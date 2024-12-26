@@ -1,9 +1,9 @@
 {
-
   "item.grilledcheese.cheese_bucket": "Bucket of Cheese",
   "item.grilledcheese.grilled_cheese_sandwich": "Grilled Cheese Sandwich",
+  "item.grilledcheese.cheese_sandwich": "Cheese Sandwich",
   "item.grilledcheese.sliced_bread": "Sliced Bread",
-
+  "item.grilledcheese.toast": "Toast",
 
   "item.grilledcheese.wooden_knife": "Wooden Knife",
   "item.grilledcheese.stone_knife": "Stone Knife",
@@ -12,6 +12,7 @@
   "item.grilledcheese.diamond_knife": "Diamond Knife",
   "item.grilledcheese.netherite_knife": "Netherite Knife",
 
+  "block.grilledcheese.cheese_block": "Cheese Block",
 
   "tag.item.grilledcheese.knives": "Knives"
 }

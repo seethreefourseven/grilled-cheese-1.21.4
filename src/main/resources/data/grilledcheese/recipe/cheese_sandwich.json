@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "grilledcheese:sliced_bread",
+    "X": "grilledcheese:cheese_bucket"
+  },
+  "pattern": [
+    "###",
+    " X ",
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "id": "grilledcheese:cheese_sandwich"
+  }
+}

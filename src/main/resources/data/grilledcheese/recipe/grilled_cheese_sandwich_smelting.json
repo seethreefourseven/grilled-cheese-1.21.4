@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "ingredient": "grilledcheese:cheese_sandwich",
+  "result": {
+    "id": "grilledcheese:grilled_cheese_sandwich"
+  }
+}

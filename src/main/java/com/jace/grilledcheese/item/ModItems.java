@@ -1,7 +1,9 @@
 package com.jace.grilledcheese.item;
 
 import com.jace.grilledcheese.GrilledCheese;
+import com.jace.grilledcheese.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.Blocks;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
@@ -22,13 +24,23 @@ public class ModItems {
         public static final Item GRILLED_CHEESE_SANDWICH = register("grilled_cheese_sandwich", Item::new, new Item.Settings()
                 .food(new FoodComponent.Builder().nutrition(10).saturationModifier(15F).build())
         );
+        public static final Item CHEESE_SANDWICH = register("cheese_sandwich", Item::new, new Item.Settings()
+                .food(new FoodComponent.Builder().nutrition(8).saturationModifier(8F).build())
+        );
         public static final Item SLICED_BREAD = register("sliced_bread", Item::new, new Item.Settings()
                 .food(new FoodComponent.Builder().nutrition(1).saturationModifier(1.2F).build())
         );
+        public static final Item TOAST = register("toast", Item::new, new Item.Settings()
+                .food(new FoodComponent.Builder().nutrition(2).saturationModifier(1.2F).build())
+        );
     public static final Item CHEESE_BUCKET = register(
             "cheese_bucket",
-            Item::new, new Item.Settings()
-                    .recipeRemainder(BUCKET).component(DataComponentTypes.CONSUMABLE, Consumables.CHEESE_BUCKET).useRemainder(BUCKET).maxCount(1)
+            settings ->
+                    new CheeseBucketItem(ModBlocks.CHEESE_BLOCK, settings),
+                    new Item.Settings()
+                    .recipeRemainder(BUCKET)
+                            .component(DataComponentTypes.CONSUMABLE, Consumables.CHEESE_BUCKET).useRemainder(BUCKET).maxCount(1)
+                            .food(new FoodComponent.Builder().nutrition(5).saturationModifier(6F).build())
     );
 
 
@@ -42,9 +54,11 @@ public class ModItems {
 
             ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
                 //here put "entries.add(EXAMPLE_ITEM);"
-                entries.add(GRILLED_CHEESE_SANDWICH);
                 entries.add(SLICED_BREAD);
+                entries.add(TOAST);
                 entries.add(CHEESE_BUCKET);
+                entries.add(CHEESE_SANDWICH);
+                entries.add(GRILLED_CHEESE_SANDWICH);
             });
 
     }
