@@ -3,7 +3,8 @@
   "category": "foodstuffs",
   "group": "sliced_bread",
   "ingredients": [
-    "minecraft:bread"
+    "minecraft:bread",
+    "#grilledcheese:knives"
   ],
   "result": {
     "count": 10,

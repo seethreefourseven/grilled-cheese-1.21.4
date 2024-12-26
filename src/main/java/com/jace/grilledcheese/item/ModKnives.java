@@ -1,6 +1,7 @@
 package com.jace.grilledcheese.item;
 
 import com.jace.grilledcheese.GrilledCheese;
+import com.jace.grilledcheese.util.ModTags;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.RegistryKey;

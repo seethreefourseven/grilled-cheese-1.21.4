@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "grilledcheese:wooden_knife",
+    "grilledcheese:stone_knife",
+    "grilledcheese:iron_knife",
+    "grilledcheese:golden_knife",
+    "grilledcheese:diamond_knife",
+    "grilledcheese:netherite_knife"
+  ]
+}
