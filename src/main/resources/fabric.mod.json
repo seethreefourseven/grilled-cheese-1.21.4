@@ -3,13 +3,13 @@
 	"id": "grilledcheese",
 	"version": "1.0",
 	"name": "Grilled Cheese",
-	"description": "A mod that adds grilled cheese sandwiches and everything required for making them.",
+	"description": "A mod that makes it possible to progress all the way to the pinnacle of human achievement, the grilled cheese sandwich..",
 	"authors": [
-		"ShawDude"
+		"jace"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/seethreefourseven/grilled-cheese-1.21.4"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/grilledcheese/icon.png",

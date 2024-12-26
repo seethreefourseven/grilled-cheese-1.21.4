@@ -1,4 +1,4 @@
-package com.grilledcheese.mixin;
+package com.jace.grilledcheese.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
